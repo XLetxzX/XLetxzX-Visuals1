@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "xletxzx_menu",
+  "version": "1.1.0",
+  "name": "XLetxzX Visuals - Men\u00fc & Discord",
+  "description": "Men\u00fc (Rechts-Shift), Farben, Hintergr\u00fcnde, Kategorien, Changelog und Discord-Status f\u00fcr XLetxzX Visuals.",
+  "authors": [
+    "XLetxzX"
+  ],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/xletxzx/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.xletxzx.visuals.XLetxzXVisuals"
+    ]
+  },
+  "depends": {
+    "minecraft": "~1.21.11",
+    "fabricloader": ">=0.19.5",
+    "java": ">=21"
+  }
+}
